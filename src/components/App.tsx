@@ -6,6 +6,10 @@ import "@fontsource/roboto/700.css";
 import Movies from "./Movies/Movies";
 import { movieType } from "../types/movie";
 
+import CocoImg from "./coco.jpg";
+import interImg from "./interstellar.jpg";
+import RaghImg from "./raghuveer.jpg";
+
 const App: React.FC = () => {
   const movieData: movieType[] = [
     {
@@ -18,7 +22,7 @@ const App: React.FC = () => {
         description:
           "Koduri Srisaila Sri Rajamouli is an Indian film director and screenwriter who primarily works in Telugu cinema. He is the highest paid director in India, and is known for his action, fantasy, and epic genre films.",
       },
-      imagePath: "/images/raghuveer.jpg",
+      imagePath: CocoImg,
     },
     {
       title: "Interstellar",
@@ -30,7 +34,7 @@ const App: React.FC = () => {
         description:
           "Christopher Edward Nolan CBE is a British-American filmmaker. Known for his Hollywood blockbusters with complex storytelling, Nolan is considered a leading filmmaker of the 21st century. His films have grossed $5 billion worldwide.",
       },
-      imagePath: "/images/interstellar.jpg",
+      imagePath: interImg,
     },
     {
       title: "Coco",
@@ -42,7 +46,7 @@ const App: React.FC = () => {
         description:
           "Adrian Molina is an American animator, storyboard artist, screenwriter, director, and lyricist. He has been at Pixar since 2007, where he started as a 2D animator on Ratatouille. He later moved on to be a storyboard artist, working on Toy Story 3 and Monsters University.",
       },
-      imagePath: "/images/coco.jpg",
+      imagePath: RaghImg,
     },
   ];
   return (

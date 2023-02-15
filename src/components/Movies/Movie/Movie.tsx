@@ -1,5 +1,4 @@
 import React, { SyntheticEvent, useState } from "react";
-
 import { movieType } from "../../../types/movie";
 
 import AccordionSummary from "@mui/material/AccordionSummary";
@@ -8,7 +7,6 @@ import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import Accordion from "@mui/material/Accordion";
 import { Box, Button } from "@mui/material";
-
 import DirectorModal from "./DirectorModal/DirectorModal";
 import FavouriteButton from "./FavouriteButton/FavouriteButton";
 
@@ -55,7 +53,7 @@ const Movie: React.FC<Props> = ({ movie }) => {
         </Box>
       </AccordionSummary>
       <AccordionDetails>
-        <Typography data-testid="description">{movie.description}</Typography>
+        <Typography>{movie.description}</Typography>
         <Box sx={{ display: "flex", m: 2, justifyContent: "center" }}>
           <FavouriteButton />
         </Box>
