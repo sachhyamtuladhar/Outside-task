@@ -15,7 +15,6 @@ jobs:
     runs-on: ubuntu-latest
     environment: 
       name: github-pages
-      url: https://github.com
     strategy:
       matrix:
         node-version: [16.x] # We will deploy with only one version of node  
