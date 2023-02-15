@@ -1,8 +1,9 @@
 {
-  "name": "opportunity",
+  "name": "outside-task",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://sachhyamtuladhar.github.io/Outside-task",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production",
