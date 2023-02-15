@@ -4,3 +4,5 @@ new Promise((resolve) =>
     resolve(Math.random() > 0.5);
   }, 1000)
 );
+
+//test
