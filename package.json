@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://sachhyamtuladhar.github.io/Outside-task",
+  "homepage": "https://sachhyamtuladhar.github.io/outside-task",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
